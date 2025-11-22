@@ -13,18 +13,34 @@ body {
     display: flex;
     background-color: white;
     border-radius: 40px;
-    padding: 15px;
+    padding: 25px;
     gap: 80px;
+    height: 600px;
+    align-items: stretch;
+    overflow: hidden;
 }
 
 .text {
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
 }
 
 .rightImg {
-    width: 290px;
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content:center;
+    color: hsla(234, 67%, 17%, 0.863);
+    font-size: 55px;
+    padding-left: 30px;
+    margin: 0;
+    line-height: 1.5;
 }
 
 ul {
@@ -41,25 +57,36 @@ li {
 form{
     display: flex;
     flex-direction: column;
+    
 }
 
 .emailInput{
-    width: 260px;
-    padding: 10px;
+    width: 324px;
+    padding: 13px;
     border:2px solid rgb(196, 196, 196);
     border-radius: 5px;
     margin: -3px;
-    margin-left: 80px;
+    margin-left: 50px;
+    padding-left:20px;
 
 }
 
 .subscribeButton{
     background-color: hsla(234, 67%, 17%, 0.863);
     color: white;
-    padding: 8px;
+    padding: 12px;
     border-radius: 5px;
-    width: 285px;
-    margin-left: 80px;
-    margin-bottom: 80px;
+    width:362px;
+    margin-left: 50px;
+    margin-bottom: 55px;
 
+}
+
+.emailText{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.sub{
+    margin-left: 44px;
 }
